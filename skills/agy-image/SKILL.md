@@ -64,15 +64,15 @@ installed."
   auto-approve allowlist so each run is deliberate.
 
 ## Example — full poster, all in one prompt
-> 做一張直式 Zenbo 啟用海報
+> 做一張直式色彩學講座海報
 
 `<tmp>/img-prompt.txt`:
-`直式宣傳海報。上方置中一隻白色桌上型陪伴機器人 Zenbo（圓球身體、黑色橢圓螢幕臉顯示發光青色笑臉與圓眼、白色霧面外殼配青色光環）。中間用白色粗體大字寫「立即啟用 Claude Code」，下方小白字「啟用期限：即日起至 7/2」，最下方一個青色圓角按鈕寫「馬上開始」。藍紫色科技漸層背景，簡約現代，文字務必拼寫正確、清楚。`
+`直式宣傳海報。上方置中一張 24 格標準色卡（ColorChecker：6×4 圓角方格、最下排是白到黑的六階灰階、其餘為紅綠藍黃橘與膚色等色塊、深灰色邊框）。中間用深灰色粗體大字寫「色彩學入門講座」，下方小字「7/26 14:00・線上直播」，最下方一個橘色圓角按鈕寫「立即報名」。米白色簡約背景，現代設計，文字務必拼寫正確、清楚。`
 ```bash
-python "<skill-dir>/scripts/agy_image.py" --out "./zenbo-poster.png" --prompt-file "<tmp>/img-prompt.txt"
+python "<skill-dir>/scripts/agy_image.py" --out "./color-poster.png" --prompt-file "<tmp>/img-prompt.txt"
 ```
 
 To match a mascot/product, add `--ref`:
 ```bash
-python "<skill-dir>/scripts/agy_image.py" --out "./zenbo-poster.png" --prompt-file "<tmp>/img-prompt.txt" --ref "D:/path/zenbo.jpg"
+python "<skill-dir>/scripts/agy_image.py" --out "./color-poster.png" --prompt-file "<tmp>/img-prompt.txt" --ref "D:/assets/mascot.png"
 ```
