@@ -1,0 +1,14 @@
+{
+  "name": "agy-image",
+  "displayName": "Agy Image (Nano Banana)",
+  "version": "0.1.0",
+  "description": "Generate or edit images locally by driving the agy CLI (Antigravity / Gemini Nano Banana) — no API key — with true transparent backgrounds via local rembg. Windows-only.",
+  "author": {
+    "name": "Harry",
+    "url": "https://github.com/harry18456"
+  },
+  "homepage": "https://github.com/harry18456/cc-agy-image",
+  "repository": "https://github.com/harry18456/cc-agy-image",
+  "license": "MIT",
+  "keywords": ["image", "image-generation", "nano-banana", "antigravity", "gemini", "rembg", "transparent-background", "skill", "claude-code"]
+}
