@@ -41,8 +41,6 @@
 New-Item -ItemType Junction -Path "$env:USERPROFILE\.claude\skills\agy-image" -Target "<這個 repo 的路徑>\skills\agy-image"
 ```
 
-> ⚠️ 之後改從 marketplace 正式安裝前,先移除這個 junction(`Remove-Item $env:USERPROFILE\.claude\skills\agy-image`)以及任何手動放在 `~/.claude/skills/agy-image/` 的舊複本,避免同名 skill 重複載入、互相搶觸發。
-
 ## 第一次使用注意
 
 - 第一次執行會自動 `pip install pywinpty pillow`(裝進執行 script 的那個 Python)。
